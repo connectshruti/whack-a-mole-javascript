@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack A Mole</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hole" id="1">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="2">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="3">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="4">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="5">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="6">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="7">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="8">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+      <div class="hole" id="9">
+        <img class="dirtHole" src="./hole.png" />
+        <img class="mole" onclick="increaseScore()" src="./mole.png" />
+      </div>
+    </div>
+    <button onclick="playAgain()">PLAY AGAIN</button>
+    <h2 className="score">SCORE :<span id="score">0</span></h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>
